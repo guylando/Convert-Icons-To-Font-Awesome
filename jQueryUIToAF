@@ -1,0 +1,20 @@
+/* Converting Jquery-UI icons to Font-Awesome icons */
+.ui-state-default .ui-icon.ui-icon-closethick {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+    /* Allow icon to grow according to font-size */
+    height: auto;
+    width: auto;
+    /* Remove the jquery ui icon */
+    background: none;
+    /* Remove the jquery ui text indent */
+    text-indent: 0; 
+}
+.ui-icon.ui-icon-closethick:before {
+    content:"\f00d";
+}
