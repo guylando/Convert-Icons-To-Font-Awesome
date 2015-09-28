@@ -1,42 +1,58 @@
-    /* Converting Bootstrap icons to Font-Awesome icons */
-    .glyphicon-forward, .glyphicon-backward, .glyphicon-step-forward, 
+/* Converting Bootstrap icons to Font-Awesome icons */
+.glyphicon-forward, .glyphicon-backward, .glyphicon-step-forward, 
     .glyphicon-step-backward, .glyphicon-remove-circle,
     .glyphicon-plus, .glyphicon-edit, .glyphicon-info-sign,
-    .glyphicon-trash {
-        display: inline-block;
-        font-family: FontAwesome;
-        font-style: normal;
-        font-weight: normal;
-        line-height: 1;
-        -webkit-font-smoothing: antialiased;
-        /* The padding is important to make the icon buttons better visually and make
-          it easier for a user to press on them */
-        padding: 5px;
-    }
-    .glyphicon-forward:before {
-        content: "\f105";
-    }
-    .glyphicon-backward:before {
-        content: "\f104";
-    }
-    .glyphicon-step-forward:before {
-        content: "\f101";
-    }
-    .glyphicon-step-backward:before {
-        content: "\f100";
-    }
-    .glyphicon-remove-circle:before {
-        content:"\f057";
-    }
-    .glyphicon-plus:before {
-        content:"\f067";
-    }
-    .glyphicon-edit:before {
-        content:"\f044";
-    }
-    .glyphicon-info-sign:before {
-        content:"\f05a";
-    }
-    .glyphicon-trash:before {
-        content:"\f014";
-    }
+    .glyphicon-trash, .glyphicon-search, .glyphicon-refresh,
+    .glyphicon-wrench, .glyphicon-check, .glyphicon-unchecked {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    /* The padding is important to make the icon buttons better visually and make
+      it easier for a user to press on them */
+    padding: 5px;
+}
+.glyphicon-forward:before {
+    content: "\f105";
+}
+.glyphicon-backward:before {
+    content: "\f104";
+}
+.glyphicon-step-forward:before {
+    content: "\f101";
+}
+.glyphicon-step-backward:before {
+    content: "\f100";
+}
+.glyphicon-remove-circle:before {
+    content:"\f057";
+}
+.glyphicon-plus:before {
+    content:"\f067";
+}
+.glyphicon-edit:before {
+    content:"\f044";
+}
+.glyphicon-info-sign:before {
+    content:"\f05a";
+}
+.glyphicon-trash:before {
+    content:"\f014";
+}
+.glyphicon-search:before {
+    content:"\f002";
+}
+.glyphicon-refresh:before {
+    content:"\f021";
+}
+.glyphicon-wrench:before {
+    content:"\f0ad";
+}
+.glyphicon-check:before {
+    content:"\f046";
+}
+.glyphicon-unchecked:before {
+    content:"\f096";
+}
