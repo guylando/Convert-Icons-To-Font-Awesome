@@ -1,4 +1,4 @@
-# ToAF
+# ToFA
 Easy little css that helps converting your icons to Font-Awesome icons
 
 Inspiration: @afreeland wrote on stackoverflow an idea of how to convert icons to Font-Awesome icons:
