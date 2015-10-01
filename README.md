@@ -6,7 +6,7 @@ Note: My function will work if you use Bootstrap styleUI. If you use the default
 Old:
 Easy little css that helps converting your icons to Font-Awesome icons
 
-Inspiration: @afreeland wrote on stackoverflow an idea of how to convert icons to Font-Awesome icons:
+Inspiration for css method: @afreeland wrote on stackoverflow an idea of how to convert icons to Font-Awesome icons:
 http://stackoverflow.com/questions/13862963/jqgrid-pager-area-using-font-awesome-icons/25085687#25085687
 
 Advantages of css method:
