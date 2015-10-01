@@ -1,6 +1,7 @@
 # ToFA
 Update:
-You can have better performance by changing the style classes that jqGrid uses to generate icons, instead of changing the css. I added javascript function that overrides jqGrid styleUI icons with Font-Awesome icons which will cause all the icons created by jqGrid to be Font-Awesome icons right away. You should run the javascript function before you initialize your grid.
+If you want to change icons used by jqGrid to Font-Awesome then You can have better performance by changing the style classes that jqGrid uses to generate icons, instead of changing the css. I added javascript function that overrides jqGrid styleUI icons with Font-Awesome icons which will cause all the icons created by jqGrid to be Font-Awesome icons right away. You should run the javascript function before you initialize your grid.
+Note: My function will work if you use Bootstrap styleUI. If you use the default jQueryUI styles then just change the word "Bootstrap" in the script to the word "jQueryUI" and it will convert all jqGrid jQueryUI icons to Font-Awesome icons.
 
 Old:
 Easy little css that helps converting your icons to Font-Awesome icons
